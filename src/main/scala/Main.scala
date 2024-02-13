@@ -7,7 +7,7 @@ import org.apache.spark.sql.{Encoders, SparkSession}
 import scala.sys.exit
 
 object Main {
-	private val argsUsage = """Usage args: [--targetPath filepath] [--sourcePath filepath]"""
+	private val argsUsage = """Usage args: [--targetDirPath inDirPath] [--sourceDirPath outPath]"""
 	
 	def main(args: Array[String]): Unit = {
 		
